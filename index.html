@@ -1806,6 +1806,9 @@
       loadDoc("./xml/class_sunday.xml", classXML);
       loadDoc("./json/class_sunday.json", classJSON);
       loadSubject('http://localhost:3000/api/subject');
+
+      document.getElementById('subscribe-form')
+              .addEventListener('submit', e => subscribeSubmit(e));
     };
 
 
@@ -1841,7 +1844,7 @@
         data: data
       });
       console.log(response);
-      ff
+      
     }
 
     document.getElementById('subscribe-form').addEventListener('submit',async (e)=>{
