@@ -2,10 +2,10 @@
 web-tecnology
 
 # Workout Template
-# Destcripion
-- One page Layout
+# Description 
+- One Page Layout
 - Responsive Web Design
-- HTML 5 
+- HTML5
 - CSS 3
-- Bootsrap 4
+- Bootstrap 4
 - jQuery 3

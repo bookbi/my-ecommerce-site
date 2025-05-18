@@ -1,0 +1,29 @@
+[
+    {
+      "userAt": "2025-05-17T15:46:21.292Z",
+      "fname": "Yanaphat",
+      "lname": "Inkham",
+      "email": "yanapatinkham@gmail.com",
+      "password": "123456789",
+      "occupationCat": "Computer",
+      "occupation": "Software Developer"
+    },
+    {
+      "userAt": "2025-05-17T15:51:17.767Z",
+      "fname": "Yanaphat",
+      "lname": "IN",
+      "email": "admin1234@gmail.com",
+      "password": "1234",
+      "occupationCat": "Healthcare",
+      "occupation": "Dentist"
+    },
+    {
+      "userAt": "2025-05-17T16:20:31.756Z",
+      "fname": "Test",
+      "lname": "Test",
+      "email": "admin1234@gmail.com",
+      "password": "123456789",
+      "occupationCat": "Scientific",
+      "occupation": "Biologist"
+    }
+  ]

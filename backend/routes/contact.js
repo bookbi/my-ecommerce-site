@@ -2,10 +2,8 @@ const express = require('express');
 const router = express.Router();
 
 router.post('/', (req, res) => {
-    const{fname, lname, email, subject, message} = req.body;
-    console.log('Contact from summited', {fname, lname, email, subject, message});
-    res.status(200).json({status : 'Message Recrived'});
-});
-
+   const{fname,lname,email,subject,message} = req.body;
+   console.log('Content form submited',{fname,lname,email,subject,message});
+   res.status(200).json({status:"Message Recieved"});
+})
 module.exports = router;
-
