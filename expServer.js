@@ -7,6 +7,6 @@ app.use(express.static(__dirname));
 app.get('/',(req,res)=>{
 res.sendFile(path.join(__dirname,"index.html"))
 })
-app.listen(5500,()=>{
-    console.log("server is running at http://localhost:5500/")
+app.listen(3000,()=>{
+    console.log("server is running at http://localhost:3000/")
 })
